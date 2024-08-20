@@ -1,2 +1,2 @@
 # my-first-project
-Die ist mein erstes Projekt auf GitHub
+Internetseite für Entwicklung/IT/Beratung
