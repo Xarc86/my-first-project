@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mein Fitness Studio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        margin: 0;
+
+        font-family: "Open Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        font-variation-settings: "wdth" 100;
+      }
+
+      .header-image {
+        height: 100vh;
+        width: 100%;
+        object-fit: cover;
+        filter: brightness(0.6);
+      }
+
+      .container {
+        position: absolute;
+        right: 32px;
+        left: 32px;
+        top: 16px;
+        font-size: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .menu-link {
+        color: white;
+        text-decoration: none;
+        margin-left: 16px;
+      }
+
+      .menu-link:hover {
+        text-decoration: underline;
+      }
+
+      .headline {
+        position: absolute;
+        left: 50px;
+        top: 300px;
+        color: white;
+        font-size: 60px;
+        width: 500px;
+        text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.8);
+      }
+
+      .yellow {
+        color: rgb(236, 236, 36);
+      }
+
+      .second-description {
+        height: 300px;
+        padding: 30px 100px;
+      }
+
+      .button {
+        background-color: rgb(236, 236, 36);
+        padding: 8px 30px;
+        border-radius: 8px;
+        color: black;
+        box-shadow: 5px 2px 15px rgba(0, 0, 0, 0.8);
+      }
+    </style>
+  </head>
+  <body>
+    <img class="header-image" src=" /img/background.jpg" />
+    <div class="container">
+      <img src="img/Logo.png" />
+
+      <div>
+        <a class="menu-link" href="">Home</a>
+        <a class="menu-link" href="">Kontakt</a>
+        <a class="menu-link" href="">Kontakt</a>
+        <a class="menu-link button" href="">Anruf</a>
+      </div>
+    </div>
+
+    <h1 class="headline">
+      Das <yspan class="yellow">Nr. 1 Fitness Center</yspan> in deiner Umgebung
+    </h1>
+
+    <div class="second-description">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolorum
+      facilis dolor nisi accusantium maiores a sit esse! Perferendis, earum
+      dolorum repudiandae asperiores sequi officiis reprehenderit. Corporis
+      dicta distinctio ipsa.
+    </div>
+  </body>
+</html>
